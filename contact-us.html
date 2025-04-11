@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landscaping Firm</title>
+    <link rel="stylesheet" href="assests/css/about-us.css" />
+    <link rel="stylesheet" href="assests/css/index.css" />
+    <link rel="stylesheet" href="assests/css/contact-us.css" />
+
+    <script defer src="assests/js/script.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <a href="#"
+          ><img
+            src="assests/images/Nisargmitra-logo.png"
+            alt="Logo"
+            class="logo"
+        /></a>
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <!-- <li><a href="#">Projects </a></li> -->
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+
+      <!-- Contact Info (Inside Mobile Menu) -->
+      <div class="user-and-cart">
+        <div class="contact-item">
+          <a href="#"><i class="fa-solid fa-user-secret"></i></a>
+        </div>
+        <div class="contact-item">
+          <a href="#"><i class="fa-solid fa-bag-shopping"></i> </a>
+        </div>
+      </div>
+
+      <!-- Hamburger Menu -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <div class="contact-us-section">
+      <div class="form-page">
+        <h2>Get In Touch With Us</h2>
+        <form
+          id="contact-form"
+          class="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="2852c2a9-39d4-4199-a748-aec54636fed3"
+          />
+          <input
+            type="text"
+            placeholder="Name"
+            class="form-data"
+            id="fullName"
+            name="name"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="form-data"
+            id="email"
+            name="email"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Contact No."
+            class="form-data"
+            id="contact"
+            name="contact"
+            required
+          />
+          <textarea
+            id="message"
+            placeholder="Message"
+            class="form-data"
+            rows="4"
+            name="message"
+            required
+          ></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-us-main">
+        <div class="contact-info">
+          <i class="fa-solid fa-location-dot logo"></i>
+          <h3>Head Office:</h3>
+          <p>
+            Shop No. 108, <br />
+            Madhuveer Building, <br />
+            Near PHC center,
+            <br />
+            Dehri, Umbergaon, <br />
+            Gujarat-396170
+          </p>
+        </div>
+        <div class="contact-info">
+          <i class="fa-solid fa-location-dot logo"></i>
+          <h3>Factory:</h3>
+          <p>
+            Shed No. C1-1927, <br />
+            Near Water Tank, <br />
+            3 rd Phase, <br />
+            GIDC Umbergaon, <br />
+            Gujarat-396171
+          </p>
+        </div>
+        <div class="contact-info">
+          <i class="fa-solid fa-phone logo"></i>
+          <h3>Call:</h3>
+          <p>+91 73599 57561 <br />+91 96018 25249</p>
+        </div>
+        <div class="contact-info">
+          <i class="fa-solid fa-paper-plane logo"></i>
+          <h3>Email:</h3>
+          <p>info@nisargmitra.in</p>
+        </div>
+      </div>
+      <div class="map">
+        <div class="single-map">
+          <h2>HEAD OFFICE</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29963.55023608728!2d72.7046030743164!3d20.15723990000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be72bce18f901dd%3A0x4686d2cdb91649d0!2sNisargmitra!5e0!3m2!1sen!2sin!4v1734691305472!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="location-map"
+          ></iframe>
+        </div>
+        <div class="single-map">
+          <h2>MANUFACTURING UNIT</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.0937217478186!2d72.77784807482367!3d20.171822881271634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be72b007a7572eb%3A0xbab718a69801c1d0!2sNisargmitra%20Factory!5e0!3m2!1sen!2sin!4v1734692569309!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="location-map"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-top">
+        <!-- About Us -->
+        <div class="footer-content">
+          <div class="footer-about">
+            <img src="assests/images/Nisargmitra-logo.png" alt="Company Logo" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
+              turpis sit amet quam egestas varius. Sed ac nisl eu lorem laoreet.
+            </p>
+            <div class="footer-follow">Follow Us On</div>
+            <div class="footer-socials">
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+            </div>
+          </div>
+
+          <!-- Navigation Links -->
+          <div class="footer-links">
+            <h4>Navigation Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-quick-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Us -->
+          <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              <a href="#">123 Main Street, City, Country</a>
+            </p>
+            <p>
+              <i class="fas fa-phone"></i>
+              <a href="tel:+1234567890">+1 234 567 890</a>
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:info@example.com">info@example.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>© 2025 All Rights Reserved</p>
+        <p><a href="#">Developed by Deepak</a></p>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
